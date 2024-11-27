@@ -145,10 +145,13 @@ a:hover{
   margin:5%
 }
 .contact-container {
+  display: flex;
+  flex-direction: row;
   width: 80%;
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
+  justify-content: space-around;
 }
 
 .contact-info h2 {
@@ -187,7 +190,7 @@ a:hover{
   resize: vertical;
 }
 
-.form-group button {
+.submit-button {
   background-color: #e8491d;
   color: white;
   padding: 12px 20px;
@@ -198,7 +201,4 @@ a:hover{
   transition: background-color 0.3s ease;
 }
 
-.form-group button:hover {
-  background-color: #ff5722;
-}
 
