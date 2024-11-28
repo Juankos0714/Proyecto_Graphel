@@ -125,7 +125,7 @@ a:hover{
     background-color: #1293d4;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
   }
 .pagina-activa{
     color:#1293d4;
@@ -135,25 +135,38 @@ a:hover{
     color:#fff;
     padding: 1rem;
     text-align: left;
-    height: 40vh;
-    width: 25vw;
+    height: auto;
+    width: 100%;
+    margin:2%;
+}
+.text-grey-2{
+  background-color:#35424a;
+  color:#fff;
+  padding: 1rem;
+  text-align: left;
+  height: auto;
+  width: 72vw;
+  margin:2%;
 }
 .info{
   display:flex;
   flex-direction: column;
+  
+
 }
 .nosotros-info-container{
   display: flex;
   flex-direction: row;
-  margin:5%
+  margin:5%;
+  gap:4rem;
 }
 .contact-container {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 90%; 
   margin: 40px 100px;
   padding: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contact-info h2 {
@@ -253,4 +266,5 @@ a:hover{
   color: #24282b;
   margin-top: 10px;
 }
+
 
